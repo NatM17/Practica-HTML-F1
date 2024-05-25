@@ -3,10 +3,7 @@ body {
     font-family: "Fira Sans", sans-serif;
     font-weight: 30px;
     font-style: normal;
-    font-size: 20px;
-    background-color: aliceblue;
-    margin-left: 450px;
-    margin-right: 450px;
+    font-size: 18px;
     line-height: 30px;
     
 
@@ -15,19 +12,22 @@ body {
 img {
     width: 460px;
     height: 300px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
 }
 
 h2 {
     color: black;
-    font-size: 30px;
+    font-size: 40px;
     padding: 10px
 }
 
 h1 {
 
-    background-color:  aliceblue;
+    
     color: black;
-    font-size: 55px;
+    font-size: 57px;
     text-align: center;
     line-height: 70px;
  
@@ -41,7 +41,7 @@ span {
 
 #grid24 {
 
-    width: 1000px;
+    width: 967px;
     height: 650px;
     
 }
@@ -52,14 +52,13 @@ header {
     text-transform: uppercase;
     text-decoration:underline;
     font-size: 12px;
-   
-
-    
+    background-color: black;
+    padding: 50px;
 }
 
 #encabezado {
 
-    height: 300px;
+    height: 100px;
     width: 300px;
 }
 
@@ -73,4 +72,18 @@ ul {
 
     margin-bottom: 60px;
     font-size: 15px;
+}
+
+footer {
+
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+#contenido{
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: rgba(245, 245, 245, 0.247);
+    padding: 10px;
+
 }
